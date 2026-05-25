@@ -2,13 +2,13 @@ import { useState } from "react";
 import "./App.css";
 
 export default function App() {
-  const [flipped, setFlipped] = useState(false);
+  const [flip, setFlip] = useState(false);
 
   return (
     <div className="container">
       <div
-        className={`card ${flipped ? "flipped" : ""}`}
-        onClick={() => setFlipped(!flipped)}
+        className={`card ${flip ? "flip" : ""}`}
+        onClick={() => setFlip(!flip)}
       >
         <div className="front">
           <img src="/front.png" alt="Front Card" />
