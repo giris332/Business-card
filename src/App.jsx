@@ -15,7 +15,7 @@ export default function App() {
         </div>
 
         <div className="back">
-          <img src="/back.png" alt="Back Card" />
+          <img src="/kiran.png" alt="Back Card" />
         </div>
       </div>
     </div>
