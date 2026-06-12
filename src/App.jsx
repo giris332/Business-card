@@ -6,11 +6,11 @@ export default function App() {
 
   const person = window.location.pathname.replace("/", "");
 
-  let backImage = "/kiran.png";
+  let backImage = "/Kiranjith.png";
 
   switch (person) {
     case "kiran":
-      backImage = "/kiran.png";
+      backImage = "/Kiranjith.png";
       break;
 
     case "prathiksha":
@@ -18,7 +18,7 @@ export default function App() {
       break;
 
     default:
-      backImage = "/kiran.png";
+      backImage = "/Kiranjith.png";
   }
 
   return (
